@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT TWO</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        nav{
+            background-image: url(../../resources2/background.png);
+            
+        }
+        .section1{
+            display: flex;
+            justify-content: space-around;
+            margin-left: 60px;
+            margin-right: 60px;
+           
+           
+        }
+        .info{
+            margin-right: 10px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .info{
+            margin-top: 25px;
+        }
+        .butt1{
+            background-color: skyblue;
+            margin-top: 10px;
+            border: none;
+            width: 170px;
+            padding:15px;
+            border-radius: 10px;
+            color: white;
+            font-weight: bold;
+        }
+        .logo{
+            color: white;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .section2{
+            padding-top: 30px;
+            padding-bottom: 30px;
+            display: flex;
+            justify-content:space-around;
+           
+
+        }
+       
+        .p1{
+            padding-top: 70px;
+        }
+        .high{
+           font-size:60px;
+           color: white;
+           margin-bottom: 0px;
+        }
+        .para{
+            color: white;
+            margin-top: 20px;
+        }
+        .aa{
+            background-color: skyblue;
+            padding: 10px 20px 10px 20px;
+            border: none;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+        }
+        .bb{
+          
+            padding: 10px 20px 10px 20px;
+            border:1px solid white;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+           background-color: transparent;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            background-color: white;
+            padding: 25px;
+            border-radius: 10px;
+        }
+        label{
+            margin-top: 10px;
+        }
+        input{
+            padding: 10px;
+        }
+        select{
+            padding: 10px;
+        }
+        .form-butt{
+            background-color: skyblue;
+            border: none;
+            padding: 15px;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            margin-top: 15px;
+        }
+        .p22{
+            text-align: center;
+        }
+        .section3{
+            margin:0px 110px 20px 110px ;
+            
+        }
+        .flex-sec{
+            display: flex;
+            justify-content: space-around;
+
+        }
+        .sec3-head{
+            text-align: center;
+            font-size:40px;
+            margin-bottom: 10px;
+        }
+        .sec3-para{
+            text-align: center;
+            font-size: larger;
+            margin-bottom: 60px;
+            color: #c0a2a2;
+
+        }
+        .box1{
+            border: 2px solid skyblue;
+            border-radius: 10px;
+            padding-bottom: 20px;
+        
+        }
+        .list{
+            list-style-type:none;
+           font-weight:lighter;
+           margin-bottom: 5px;
+           padding:20px 30px 0px 30px;
+           line-height: 30px;
+           font-weight: bold;
+        }
+        .an{
+            text-decoration: none;
+            margin-left: 40px;
+            font-weight: bold;
+            
+        }
+        .header{
+            background-color: skyblue;
+            padding-bottom: 30px;
+            text-align: center;
+        }
+        .section4{
+            background-color: #f2e5e5;
+            padding: 50px;
+        }
+        .box2{
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px 20px 15px 20px;
+        }
+        .section5{
+            padding:0px 50px 20px 50px;
+        }
+        .grid-box{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            justify-content:space-around;
+            padding-left: 90px;
+            
+        }
+        .section6{
+            padding:0px 40px 20px 40px;
+        }
+        .flex-box{
+            display: flex;
+            gap: 5px;
+            justify-content: space-around;
+            padding-left: 90px;
+            padding-right: 90px;
+        }
+        .flex-ele{
+            border: 2px solid #1174c0;
+            border-radius: 10px;
+            padding: 20px;
+
+        }
+        .flex-ele:hover{
+            background-color: #030346;
+            transform: scale(1.2);
+            color: white;
+        }
+        .sec6-head{
+            text-align: center;
+            font-weight: bold;
+        }
+     
+        .sec6-para{
+            text-align: center;
+            font-weight: bold;
+        }
+      
+        .sec6-doll{
+            text-align: center;
+            color: #1174c0;
+            font-size: 40px;
+        }
+        sub{
+            font-size: large;
+        }
+        .sec6-butt{
+            border: none;
+            border-radius: 5px ;
+            color: white;
+            font-weight: bold;
+            padding:10px 50px 10px 50px;
+            background-color: #1174c0;
+            margin-left:30%;
+        }
+        .flex-ele> ul{
+            line-height: 40px;
+            font-weight: bold;
+        }
+       .section7{
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        padding:40px 0px 40px 0px;
+        color: white;
+        background-color: #030346;
+       }
+       .sec7-head{
+        font-size:40px;
+        margin-bottom: 5px;
+       }
+       .section7> div> input{
+        border: none;
+        padding: 15px;
+       }
+       .section7> div> button{
+        background-color:#1174c0;
+        padding: 15px;
+        color: white;
+        border: none;
+        font-weight: bold;
+      
+       }
+       .section8{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+         padding:10px 50px 10px 50px;
+       }
+       .footer-box{
+        display: flex;
+        flex-direction: column;
+        }
+        .footer-box> a{
+            line-height: 30px;
+            text-decoration: none;
+            color: #695e5e;
+            font-weight:bold;
+        }
+      .sec8-img{
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+      }
+     
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+         <section class="section1">
+            <div>
+                 <h1 class="logo">BrandName</h1>
+            </div>
+            <div class="info">
+                <a href="#" class="info" >Home</a>
+                <a href="#" class="info" >Product</a>
+                <a href="#" class="info" >Pricing</a>
+                <a href="#" class="info" >Contact</a>
+            </div>
+            <div>
+                 <button class="butt1">Get quote Now -></button>
+            </div>
+        </section>
+      <section class="section2">
+        <div class="p1">
+            <h1 class="high">
+             Meet the Best <br> Hospital
+            </h1>
+            <p class="para">
+                We know how large objects will act, <br> but things on a small scale.
+            </p>
+            <button class="aa">Get quote Now</button>
+            <button class="bb">Learn More</button>
+        </div>
+        <div class="p2">
+           
+            <form action="#">
+                <h1 class="p22">Book Appointment</h1>
+               <label for="name">Name*</label> 
+               <input type="name" id="name" placeholder="full Name*">
+               <label for="email">Email address*</label> 
+               <input type="name" id="email" placeholder="example@gmail.com">
+               <label for="dept">Departement*</label> 
+               <select name="" id="dept">
+                <option value="" disabled selected>Select your option</option>
+                <option value="i">ICU</option>
+                <option value="o">Emergency</option>
+               </select>
+               <label for="time">Time*</label>
+               <select name="" id="">
+                <option value="" disabled selected>4:00 Available</option>
+                <option value="i">5:00</option>
+                <option value="o">6:00</option>
+                <option value="k">etc.</option>
+               </select>
+               <button class="form-butt">Book Appointment</button>
+
+            </form>
+        </div>
+      </section>
+        </nav>
+        <section class="section3">
+      <h1 class="sec3-head">Leading Medicine</h1>
+      <p class="sec3-para">Problems trying to resolve the conflict between <br>the two najor  realms of classical physics:Newtonian mechanics</p>
+      <section class="flex-sec">
+        <div class="box1"> 
+            <div class="header">
+            <img src="" alt="" class="">
+           <h1>Emergency Case</h1> 
+        </div>
+           <ol class="list">
+            <li>- The best products start <br> with figma</li>
+            <li>- Design with real data</li>
+            <li>- Lightning fast prototyping</li>
+            <li>- Fastest way to organize</li>
+            <li>- work at the speed of thought.
+            </li>
+           </ol>
+           <a href="#" class="an">Learn More</a>
+
+        </div>
+        <div class="box1"> 
+            <div class="header">
+            <img src="" alt="" class="">
+           <h1>Cancer Care</h1> 
+            </div>
+           <ol class="list">
+            <li>- The best products start <br> with figma</li>
+            <li>- Design with real data</li>
+            <li>- Lightning fast prototyping</li>
+            <li>- Fastest way to organize</li>
+            <li>- work at the speed of thought.
+            </li>
+           </ol>
+           <a href="#" class="an">Learn More</a>
+           
+
+        </div>
+        <div class="box1"> 
+            <div class="header">
+            <img src="" alt="" class="">
+           <h1>Health Queries</h1> 
+            </div>
+           <ol class="list">
+            <li>- The best products start <br> with figma</li>
+            <li>- Design with real data</li>
+            <li>- Lightning fast prototyping</li>
+            <li>- Fastest way to organize</li>
+            <li>- work at the speed of thought.
+            </li>
+           </ol>
+           <a href="#" class="an">Learn More</a>
+          
+
+        </div>
+      </section>
+        </section>
+        <section class="section4">
+            <h1 class="sec3-head">Leading Medicine</h1>
+            <p class="sec3-para">Problems trying to resolve the conflict between <br>the two najor  realms of classical physics:Newtonian mechanics</p>
+            <section class="flex-sec">
+              <div class="box2"> 
+                  
+                <img src="https://www.nicepng.com/png/detail/104-1046157_star-rating-4-of-5-4-stars-transparent.png" alt="star"  width="100px">
+                <p>slate helps you see how many <br> more days you need to work to <br> reach your financial goal</p>
+               <img src="../../resources2/user1.png" alt="user1">
+      
+              </div>
+              <div class="box2"> 
+                <img src="https://www.nicepng.com/png/detail/104-1046157_star-rating-4-of-5-4-stars-transparent.png" alt="star" width="100px" >
+                <p>slate helps you see how many <br> more days you need to work to <br> reach your financial goal</p>
+                <img src="../../resources2/user2.png" alt="user2">
+              </div>
+              <div class="box2"> 
+                  <img src="https://www.nicepng.com/png/detail/104-1046157_star-rating-4-of-5-4-stars-transparent.png" alt="star" width="100px" >
+                  <p>slate helps you see how many <br> more days you need to work to <br> reach your financial goal</p>
+               <img src="../../resources2/user3.png"  alt="" >
+                
+      
+              </div>
+            </section>
+        </section>
+        <section class="section5">
+            <h1 class="sec3-head">FAQ</h1>
+            <p class="sec3-para">Problems trying to resolve the conflict between <br>the two najor  realms of classical physics:Newtonian mechanics</p>
+            <div class="grid-box">
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale <br> behave like nothing</p>
+            </div>
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale <br> behave like nothing</p>
+            </div>
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale <br> behave like nothing</p>
+            </div>
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale <br> behave like nothing</p>
+            </div>
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale  <br>behave like nothing</p>
+            </div>
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale <br> behave like nothing</p>
+            </div>
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale <br> behave like nothing</p>
+            </div>
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale <br> behave like nothing</p>
+            </div>
+            <div>
+                <h3>the quick fox jumps over <br> the lazy dog</h3>
+                <p>Things on a very small scale <br> behave like nothing</p>
+            </div>
+        </div>
+        </section>
+        <section class="section6">
+            <h1 class="sec3-head">Pricing</h1>
+            <p class="sec3-para">Problems trying to resolve the conflict between <br>the two najor  realms of classical physics:Newtonian mechanics</p>
+            <div class="flex-box">
+             <div class="flex-ele">
+                <h2 class="sec6-head">FREE</h2>
+                <P class="sec6-para">Orgainize across all <br> apps by hand</P>
+                <p class="sec6-doll">0<sup>$</sup> <sub>Per Month</sub></p>
+                <ul>
+                    <l1>Unlimited product updates</l1>
+                    <l1>Unlimited product updates</l1>
+                    <l1>Unlimited product updates</l1>
+                    <l1>1GB Cloud storage</l1>
+                    <l1>Email and community <br> support</l1>
+                </ul>
+                <button class="sec6-butt">Try for free</button>
+            </div>
+             <div class="flex-ele">
+                <h2 class="sec6-head">STANDARD</h2>
+                <P class="sec6-para">Orgainize across all <br> apps by hand</P>
+                <p class="sec6-doll">9.99<sup>$</sup> <sub>Per Month</sub></p>
+                <ul>
+                    <l1>Unlimited product updates</l1>
+                    <l1>Unlimited product updates</l1>
+                    <l1>Unlimited product updates</l1>
+                    <l1>1GB Cloud storage</l1>
+                    <l1>Email and community <br> support</l1>
+                </ul>
+                <button class="sec6-butt">Try for free</button>
+            </div>
+             <div class="flex-ele">
+                <h2 class="sec6-head">PREMIUM</h2>
+                <P class="sec6-para">Orgainize across all <br> apps by hand</P>
+                <p class="sec6-doll">19.99<sup>$</sup> <sub>Per Month</sub></p>
+                <ul>
+                    <l1>Unlimited product updates</l1>
+                    <l1>Unlimited product updates</l1>
+                    <l1>Unlimited product updates</l1>
+                    <l1>1GB Cloud storage</l1>
+                    <l1>Email and community <br> support</l1>
+                </ul>
+                <button class="sec6-butt">Try for free</button>
+            </div>
+
+            </div>
+         </section>
+         <section class="section7">
+            <div>
+                <h1 class="sec7-head">Get In Touch</h1>
+                <p class="sec7-para">The gradual accumulation of information about atomic and <br> small-scale behaviour during the first quarter of the 20th</p>
+            </div>
+            <div>
+                <input type="email" placeholder="Your Email">
+                <button>Subscribe</button>
+            </div>
+         </section>
+         <section class="section8">
+            <div>
+                <h1>Get In Touch</h1>
+                <p>the quick fox jumps over the <br> lazy dogs\</p>
+                <div class="footer-img">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHoAAAB6CAMAAABHh7fWAAAAZlBMVEUYd/L///8AcPKnwvgRdfIAbvHx9f7B0vo8gvMAcvL1+P5elPX7/f8AavHs8/7I2fsjevKdvfhrnPWux/lChvN5pvbk7f1fl/WVuPi3zvqBqvdKjfTe6PxVkPTO3fvY5fwAZvGKsfc3sWxvAAAFEElEQVRogcXb6XarIBAAYERINNG41Nhspu37v+RFU9cAMwP03PnV05P4BRRkGVhEjtPzWt3qe8KGSO71rbo+T/TrMJpaXI4l55KnQogXrf5I1T94eawKmo+ns0fclVKmzBCplGUXP7LgdFvdhZmdeXGv2pB0VtRSjjVsDyEkrwtU0RF0Fjc5ip34vIkROExXqsAUeMClrLzpj5ST4QHn6YcXXTTSxX2FbApn+nR2K/Fc8rOtpVvofcl94D54uXehz7TH2lDw/Eym28TjLi+DJ6YuxkDv6Q3KFEIaKl1PXwIV+RXygqfP4crch5DaG66j66Bl7kPWKDr7DC4r+/O9U3+n/0LubZgOX9u/9ludb+nzH8nK3j5rGzpsq9rYFxvt3pOIV/R/GT+y6VtWdOtUZsGlKJOmjyQpS8FV6H3ZGunEocxcJj/7r914icPp67mPb5228CIx0Wf6S1KmF8Mr+aiz+fJRW9D7nAyXxkFQpqVZvrjdM30qqdUtfw4m2USLcq6kmaa2aJFaRiAmelnlE10Qb7QQXxbZSDM+jRUnuiFWN7fKZlo0W/qDWN2moQdIMzk+miMNzuQ23/+xyxaapWu6ot1p0ZifbZDm1ZLOiH03VN1WWshsQce0Oy06cCJpoZmMZzojPt75FZKttGiyiS5oXahIoTttp1leTHRNK3RqnszgaFGPdEvsyBD1bXhzjcHbX7oidiffhvfkbn++q7HCK6xXGNYcFJ3dafUt9JOlLC4lx631MHHPBvqB/Pz0vU4r14RJsRCPgSY2apbedPSNdJW+aSu6I/bfXDdxfNJ+f9r19Mn+RGjoWENTf78arbCooI6AtfQ38SKyUDS1aWnpJ3VIqaYiLDoSq0pLX6m/Pz0qmnqrtTR1kKNudsRO5HG/jo7pVzmx5/+in4x8lwLR8sqIo7JgNK/YjfqAB6LTGyMOE4LRombEN2Y4+s7o0/lAdEL9RjAaG2IZelpsIpCcrEK3lPBRrj/TkNcJDHK7W4VmFH7YbT7yE+QOiAQe8b9FTe4uQtEHTJuFG5cLDY+6VOOCf54L/QBfSqpLgTtSFxqeQKqOFH59uNDwgE+9PuCXpgsNP+DqpQkPFVxo+AlSQwV4gORAH+B2owZI8LDQgX6YF+Qn+oQYDDvQiLFmiZkCONDwsHyYAoDtwIGGXx7DxAdcEnagP+G2VWAmuQ40/IAPk1xwaiwSfHLPK3bgA/6a2sMLGsl1v4rHO/ZYfSCGyjwuaMDLOHIV35psl+p7+Qm4q/hdxqEuXgUYkQ7ruw5LdgHoccmOulAZgJ4WKonLs/70vDxLXJT2pxeL0rSleG96uRRPW6v0ppcbELRtF196ve1C2mzypdebTaQtNl96s8VGWXPzpN82FgnbqX70+3YqYRPZj9ZsIuMzFbxo3dY5PmHAh9YnDKDTJHxofZoEuso9aFNyCDYlxp02p8QgE4HcaUsiEC79yZW2pj/hkr5caXvSFyoxxpGGUt0wCX5uNJzgh0hrdKIxaY1wMqcLjUvmBOvcgUamsEZQ4i6ZJiTuAm2MTFPSle19C5EmJmn3qenGi9Focmp6ZEnIp9AuCfmR+RgCgXY8hmA8fIGm3Q9fRIYjJ1ja58hJH5qDNija+6BNHxXfNDQELST3P14UvR+qAulgh6qi4SgZn4+SWemwR8mGaKtuPEBnoVMpurAH6IaYjg0a6D87NviK4bBkrluyy//ysOTsawTd/6D4B7ZpQ9T0Qj+AAAAAAElFTkSuQmCC" alt="facebook" class="sec8-img"> 
+                    <img src="data:image/png;base64,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" alt="instagram" class="sec8-img"> 
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAL4AAACKCAMAAAAjQQAUAAAATlBMVEX///9dqd1Yp9xRpNv7/f5Jodrs9Ppiq97f7Peu0eyMv+Xw9vvE3fH0+fzo8vmgyumBuuPS5fSZxuh3teFrr9/L4fO41u4/ndmozevX6fXLQXnvAAAFC0lEQVR4nO2cbdu6LAzGc0gqPgNZff8veqtddpv5wJBp/+Pg9zrrZIyxTehy8Xg8Ho/H4/F4PB6Px+P5VwnzPDxbgxXhNZM6CoIAIi2z4t8aRJwozhkEPcA4V0m88NHrocJMKIQepA8Ai8TcAFJRHy5vnULyifa/Edxl8fXRe0Sg4LbnWc3mxHcwnY0/WcuA8Wzpe+wposb20TCBWdP/TQAkwxoOGxUwAJ060jwiYWBplFDyZfEdXLT68zgTvPcw299Z1aABoqVAsf5kueg4b/0ykyr6W9lQEQTUG++m2Ub/tvrumwHeETV3Lv5yEf20arz+bMNzvkZC4DqXMOqNAwF2Q4mjlVU7A3sQqL/Uw9TCE/VcWBm4zsj0b/WF1TpbohlsCBEq/mco9QFLXo/VpXIq//GWAQzjnGsB/9v2cOvy0fih4b5nk/xGjmSw0jiy4dateBZ1I6M2rWOlU/WhGFuRCcPYFlaodVtVGlg3zcxx6P+Ub7wA6gijPhhiP2jHG9dEfrsAEpNfaHALd/hyi91lAzH1AlDTRPeb6aAN1dvlJquUX0KAJ1uJYY6KO2/123ZBk8wIYWpjBVyR+UKv3r3ntNzm7AisWv2tGi+fKYJcvzXkgq14uTIAbLbWqpdE3Qe94MZttb3oq+jAw6wLui2S5WKVV8/5GV9+ZuGbSLLNnmLFEYCpx9wUYK3vOFUYE4o1LcBAZenUb5HpZuv5ZPLnY894BJxVTf1RzWAjD6X8UG3uQcACJUaNP2zcp5R/iU3EQNe7DKpH9oyLaxEgC0U6328pjY3ZjYEFWuESTsrI05Juu8/HGNAZDycL+z0FsmuAhaK3OeY53yZ2Jp+qL35NXtvSk9T+nCLZ7OVrKG/drhQvd7p3AwFBpt+TVl1Ml1l6SSWd/TXVO6G+7APgd46OhuZARdGc7Xnb3Kb+M4Rw08XmvlbyEzL5T9qI/8JtY3BMeIB6ggbJG0nvPZpOvVm+uQsmCOUju60W0GY8W9XWbu4kHZ4BavM7bytPIPZ+wqj/4kGrH/fOD0+Oe0uIAxT5GZ4rrlrEySct01/EyNYBAkbtO71+qmoFKLfc/0krmvVLXaUP5A+Kch1/VsKaWLkvWWgbVJ+Et4q7XgJHLNw3eSydxiCojhI+NPGvzdLrIgvIGjxTCiVkixAuGw7sKONfLpoBjE6eOQF5xGkPN/dxH6jehs6Qu8972FGe33FzHTPJE/0PXFddoMlag7OkbrMGoGtOzZO5lE/6NnEek2O9xvKPdR3H+tkp9yRc6UecqXRK42T9MnXW5aGn2j8BEJA21lZJk/vOAQDJWXdjrjLalbrRnZ0ypGhEwJnlEGgPYJgRFvWjsipc+IF55gZP/ABO2G0XCBu8+/R3nX6CwiKEGh+hp+aaWGxg/Fc8J7NpevKTUoUJeRZN77AacPJuNXBNlE3ZDvro+mSO+vv2sBHM4NoCLXl8k8Ct9lqAA3uxc9KfTVlpZpmscX1oK7YnFkImLaVss4M9HTYIHmdE+/zRnSpt2dUZ3LpqQUhR7S2u2rWSnbjRFiLYUZwAV2fn9rW0faUCXDfnVYVvCmlxLrl9Qmc/kSO0i7gREWoVMKbK42PlMmHcqLtZCALGmah/799G8qbS0WoYBWCglfwlu3+Q1o1U0P3fy2QQ/e0JUCLJzgryhoT5Nc4SoSI2ohVeZnHxdYfol2kHUrSkP1L/eTwej8fj8Xg8Hs+P8B/0hjsyK6oTYAAAAABJRU5ErkJggg==" alt="twitter" class="sec8-img">
+                </div>
+            </div>
+            <div class="footer-box">
+                <h1>Company info</h1>
+                <a href="#">About us</a>
+                <a href="#">carrier </a>
+                <a href="#">We are hiring</a>
+                <a href="#">Blog</a>
+            </div>
+            <div class="footer-box">
+                <h1>Features</h1>
+                <a href="#">Business Marketing </a>
+                <a href="#">User Analytic</a>
+                <a href="#">Live Chat </a>
+                <a href="#">Unlimited Support</a>
+            </div>
+            <div class="footer-box">
+                <h1>Resources</h1>
+                <a href="#">IOS & Android </a>
+                <a href="#">Watch a Demo</a>
+                <a href="#">Customers</a>
+                <a href="#">API</a>
+            </div>
+         </section>
+        
+    </div>
+</body>
+</html>
